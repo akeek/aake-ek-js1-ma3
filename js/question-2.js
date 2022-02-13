@@ -1,15 +1,3 @@
-// Q1
-
-// Convert this to an arrow-function
-// function getRemainder(a,b) {
-//     return a % b;
-//     }
-
-const getRemainder = (a,b) => a % b
-
-getRemainder();
-
-
 //Q2
 
 const url = "https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating&key=af37392c64ff4bd9836ad26850276da3"
