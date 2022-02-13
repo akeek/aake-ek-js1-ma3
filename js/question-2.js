@@ -7,9 +7,9 @@ async function createHtml(){
     const response = await fetch(url);
     const results = await response.json();
 
-    const info = results.results
+    const info = results.results;
 
-    htmlContainer.innerHTML = ""
+    htmlContainer.innerHTML = "";
 
     for(let i = 0; i < info.length; i++){
         if(i === 8){
@@ -25,4 +25,4 @@ async function createHtml(){
 }
 
 
-createHtml()
+createHtml();
